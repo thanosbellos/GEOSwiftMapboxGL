@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
   s.author       = { "GEOSwift team" => "https://github.com/orgs/GEOSwift/people" }
 
   s.source       = { :git => "https://github.com/GEOSwift/GEOSwiftMapboxGL.git", :tag => s.version }
-  s.source_files = "GEOSwiftMapboxGL/*"
+  s.source_files = "GEOSwiftMapboxGL/*.{h,m,swift}"
 
   s.platform     = :ios, "8.0"
 
